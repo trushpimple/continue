@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location will be Displayed!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ser1"
+        android:layout_marginTop="130dp"
+        android:text="Quote your problem!"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="220dp"
+        android:text="Quote your problem!"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:onClick="Clicked"
+        android:text="Audio Message of your problem !"
+        android:textSize="15sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Images if Required!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:onClick="Clicked"
+        android:textSize="15sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Get Services "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="475dp"
+        android:textSize="15sp"
+        />
+
+
+    <Button
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="575dp"
+        android:text="Home"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bookings"
+        android:layout_marginTop="575dp"
+        android:layout_marginHorizontal="100dp"
+        android:textSize="12sp"
+        />
+
+
+    <Button
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="210dp"
+        android:layout_marginTop="575dp"
+        android:text="Rewards"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="320dp"
+        android:layout_marginTop="575dp"
+        android:text="Profile"
+        android:textSize="12sp" />
+
+</RelativeLayout>
